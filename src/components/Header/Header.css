@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--main-color);
+}
+.header-logo img{
+    width: 10rem;
+    height: 4rem;
+}
+.header-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.header-buttons button{
+    border: none;
+    padding: 7px 10px;
+    margin: 0 .8rem;
+    font-size: 17px;
+    border-radius: var(--radius);
+    transition: var(--speed);
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+.header-buttons button:hover{
+    transform: scale(1.1);
+    box-shadow: var(--shadow);
+}
